@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Counter } from '../component/Counter';
 
-test('handles onClick', () => {
+test('increases count', () => {
     render(<Counter />);
 
     const divElement = screen.getByRole("contentinfo");
